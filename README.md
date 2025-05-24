@@ -25,14 +25,13 @@ This project is perfect for digital marketers, SEO professionals, or business ow
 
 ```mermaid
 graph TD
-  A[User Interface (Streamlit App)] --> B[firecrawl.py - Crawl website & competitors]
+  A[User Interface - Streamlit App] --> B[firecrawl.py - Crawl websites & competitors]
   A --> C[exa.py - Fetch trending keywords]
-  A --> D[groq.py - Generate AI-based SEO tips]
+  A --> D[groq.py - Generate SEO tips]
   B --> E[pdf_generator.py - Compile data into PDF]
   C --> E
   D --> E
-  E --> F[User Downloads PDF Report]
-
+  E --> F[User downloads PDF report]
 ```
 
 ---
