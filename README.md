@@ -9,9 +9,8 @@
 
 > 🎯 **Transform your SEO strategy with AI-powered insights!** Comprehensive SEO audits, competitive analysis, and actionable recommendations through an intuitive interface.
 
----
-# Application Link - 
-# ![SEO InsightHub](https://seo-insightapp.streamlit.app/) 
+--- 
+# [SEO InsightHub Application link ](https://seo-insightapp.streamlit.app/) 
 ## ✨ Key Features
 
 ### 🧠 **AI-Powered Intelligence**
