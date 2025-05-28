@@ -1,0 +1,3 @@
+[console_scripts]
+ag = agno.cli.entrypoint:agno_cli
+agno = agno.cli.entrypoint:agno_cli

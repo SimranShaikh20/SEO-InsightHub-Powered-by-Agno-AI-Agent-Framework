@@ -1,0 +1,1066 @@
+Metadata-Version: 2.4
+Name: agno
+Version: 1.5.4
+Summary: Agno: a lightweight library for building Reasoning Agents
+Author-email: Ashpreet Bedi <ashpreet@agno.com>
+License: Copyright (c) Agno, Inc.
+        
+        Mozilla Public License Version 2.0
+        ==================================
+        
+        1. Definitions
+        --------------
+        
+        1.1. "Contributor"
+            means each individual or legal entity that creates, contributes to
+            the creation of, or owns Covered Software.
+        
+        1.2. "Contributor Version"
+            means the combination of the Contributions of others (if any) used
+            by a Contributor and that particular Contributor's Contribution.
+        
+        1.3. "Contribution"
+            means Covered Software of a particular Contributor.
+        
+        1.4. "Covered Software"
+            means Source Code Form to which the initial Contributor has attached
+            the notice in Exhibit A, the Executable Form of such Source Code
+            Form, and Modifications of such Source Code Form, in each case
+            including portions thereof.
+        
+        1.5. "Incompatible With Secondary Licenses"
+            means
+        
+            (a) that the initial Contributor has attached the notice described
+                in Exhibit B to the Covered Software; or
+        
+            (b) that the Covered Software was made available under the terms of
+                version 1.1 or earlier of the License, but not also under the
+                terms of a Secondary License.
+        
+        1.6. "Executable Form"
+            means any form of the work other than Source Code Form.
+        
+        1.7. "Larger Work"
+            means a work that combines Covered Software with other material, in
+            a separate file or files, that is not Covered Software.
+        
+        1.8. "License"
+            means this document.
+        
+        1.9. "Licensable"
+            means having the right to grant, to the maximum extent possible,
+            whether at the time of the initial grant or subsequently, any and
+            all of the rights conveyed by this License.
+        
+        1.10. "Modifications"
+            means any of the following:
+        
+            (a) any file in Source Code Form that results from an addition to,
+                deletion from, or modification of the contents of Covered
+                Software; or
+        
+            (b) any new file in Source Code Form that contains any Covered
+                Software.
+        
+        1.11. "Patent Claims" of a Contributor
+            means any patent claim(s), including without limitation, method,
+            process, and apparatus claims, in any patent Licensable by such
+            Contributor that would be infringed, but for the grant of the
+            License, by the making, using, selling, offering for sale, having
+            made, import, or transfer of either its Contributions or its
+            Contributor Version.
+        
+        1.12. "Secondary License"
+            means either the GNU General Public License, Version 2.0, the GNU
+            Lesser General Public License, Version 2.1, the GNU Affero General
+            Public License, Version 3.0, or any later versions of those
+            licenses.
+        
+        1.13. "Source Code Form"
+            means the form of the work preferred for making modifications.
+        
+        1.14. "You" (or "Your")
+            means an individual or a legal entity exercising rights under this
+            License. For legal entities, "You" includes any entity that
+            controls, is controlled by, or is under common control with You. For
+            purposes of this definition, "control" means (a) the power, direct
+            or indirect, to cause the direction or management of such entity,
+            whether by contract or otherwise, or (b) ownership of more than
+            fifty percent (50%) of the outstanding shares or beneficial
+            ownership of such entity.
+        
+        2. License Grants and Conditions
+        --------------------------------
+        
+        2.1. Grants
+        
+        Each Contributor hereby grants You a world-wide, royalty-free,
+        non-exclusive license:
+        
+        (a) under intellectual property rights (other than patent or trademark)
+            Licensable by such Contributor to use, reproduce, make available,
+            modify, display, perform, distribute, and otherwise exploit its
+            Contributions, either on an unmodified basis, with Modifications, or
+            as part of a Larger Work; and
+        
+        (b) under Patent Claims of such Contributor to make, use, sell, offer
+            for sale, have made, import, and otherwise transfer either its
+            Contributions or its Contributor Version.
+        
+        2.2. Effective Date
+        
+        The licenses granted in Section 2.1 with respect to any Contribution
+        become effective for each Contribution on the date the Contributor first
+        distributes such Contribution.
+        
+        2.3. Limitations on Grant Scope
+        
+        The licenses granted in this Section 2 are the only rights granted under
+        this License. No additional rights or licenses will be implied from the
+        distribution or licensing of Covered Software under this License.
+        Notwithstanding Section 2.1(b) above, no patent license is granted by a
+        Contributor:
+        
+        (a) for any code that a Contributor has removed from Covered Software;
+            or
+        
+        (b) for infringements caused by: (i) Your and any other third party's
+            modifications of Covered Software, or (ii) the combination of its
+            Contributions with other software (except as part of its Contributor
+            Version); or
+        
+        (c) under Patent Claims infringed by Covered Software in the absence of
+            its Contributions.
+        
+        This License does not grant any rights in the trademarks, service marks,
+        or logos of any Contributor (except as may be necessary to comply with
+        the notice requirements in Section 3.4).
+        
+        2.4. Subsequent Licenses
+        
+        No Contributor makes additional grants as a result of Your choice to
+        distribute the Covered Software under a subsequent version of this
+        License (see Section 10.2) or under the terms of a Secondary License (if
+        permitted under the terms of Section 3.3).
+        
+        2.5. Representation
+        
+        Each Contributor represents that the Contributor believes its
+        Contributions are its original creation(s) or it has sufficient rights
+        to grant the rights to its Contributions conveyed by this License.
+        
+        2.6. Fair Use
+        
+        This License is not intended to limit any rights You have under
+        applicable copyright doctrines of fair use, fair dealing, or other
+        equivalents.
+        
+        2.7. Conditions
+        
+        Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted
+        in Section 2.1.
+        
+        3. Responsibilities
+        -------------------
+        
+        3.1. Distribution of Source Form
+        
+        All distribution of Covered Software in Source Code Form, including any
+        Modifications that You create or to which You contribute, must be under
+        the terms of this License. You must inform recipients that the Source
+        Code Form of the Covered Software is governed by the terms of this
+        License, and how they can obtain a copy of this License. You may not
+        attempt to alter or restrict the recipients' rights in the Source Code
+        Form.
+        
+        3.2. Distribution of Executable Form
+        
+        If You distribute Covered Software in Executable Form then:
+        
+        (a) such Covered Software must also be made available in Source Code
+            Form, as described in Section 3.1, and You must inform recipients of
+            the Executable Form how they can obtain a copy of such Source Code
+            Form by reasonable means in a timely manner, at a charge no more
+            than the cost of distribution to the recipient; and
+        
+        (b) You may distribute such Executable Form under the terms of this
+            License, or sublicense it under different terms, provided that the
+            license for the Executable Form does not attempt to limit or alter
+            the recipients' rights in the Source Code Form under this License.
+        
+        3.3. Distribution of a Larger Work
+        
+        You may create and distribute a Larger Work under terms of Your choice,
+        provided that You also comply with the requirements of this License for
+        the Covered Software. If the Larger Work is a combination of Covered
+        Software with a work governed by one or more Secondary Licenses, and the
+        Covered Software is not Incompatible With Secondary Licenses, this
+        License permits You to additionally distribute such Covered Software
+        under the terms of such Secondary License(s), so that the recipient of
+        the Larger Work may, at their option, further distribute the Covered
+        Software under the terms of either this License or such Secondary
+        License(s).
+        
+        3.4. Notices
+        
+        You may not remove or alter the substance of any license notices
+        (including copyright notices, patent notices, disclaimers of warranty,
+        or limitations of liability) contained within the Source Code Form of
+        the Covered Software, except that You may alter any license notices to
+        the extent required to remedy known factual inaccuracies.
+        
+        3.5. Application of Additional Terms
+        
+        You may choose to offer, and to charge a fee for, warranty, support,
+        indemnity or liability obligations to one or more recipients of Covered
+        Software. However, You may do so only on Your own behalf, and not on
+        behalf of any Contributor. You must make it absolutely clear that any
+        such warranty, support, indemnity, or liability obligation is offered by
+        You alone, and You hereby agree to indemnify every Contributor for any
+        liability incurred by such Contributor as a result of warranty, support,
+        indemnity or liability terms You offer. You may include additional
+        disclaimers of warranty and limitations of liability specific to any
+        jurisdiction.
+        
+        4. Inability to Comply Due to Statute or Regulation
+        ---------------------------------------------------
+        
+        If it is impossible for You to comply with any of the terms of this
+        License with respect to some or all of the Covered Software due to
+        statute, judicial order, or regulation then You must: (a) comply with
+        the terms of this License to the maximum extent possible; and (b)
+        describe the limitations and the code they affect. Such description must
+        be placed in a text file included with all distributions of the Covered
+        Software under this License. Except to the extent prohibited by statute
+        or regulation, such description must be sufficiently detailed for a
+        recipient of ordinary skill to be able to understand it.
+        
+        5. Termination
+        --------------
+        
+        5.1. The rights granted under this License will terminate automatically
+        if You fail to comply with any of its terms. However, if You become
+        compliant, then the rights granted under this License from a particular
+        Contributor are reinstated (a) provisionally, unless and until such
+        Contributor explicitly and finally terminates Your grants, and (b) on an
+        ongoing basis, if such Contributor fails to notify You of the
+        non-compliance by some reasonable means prior to 60 days after You have
+        come back into compliance. Moreover, Your grants from a particular
+        Contributor are reinstated on an ongoing basis if such Contributor
+        notifies You of the non-compliance by some reasonable means, this is the
+        first time You have received notice of non-compliance with this License
+        from such Contributor, and You become compliant prior to 30 days after
+        Your receipt of the notice.
+        
+        5.2. If You initiate litigation against any entity by asserting a patent
+        infringement claim (excluding declaratory judgment actions,
+        counter-claims, and cross-claims) alleging that a Contributor Version
+        directly or indirectly infringes any patent, then the rights granted to
+        You by any and all Contributors for the Covered Software under Section
+        2.1 of this License shall terminate.
+        
+        5.3. In the event of termination under Sections 5.1 or 5.2 above, all
+        end user license agreements (excluding distributors and resellers) which
+        have been validly granted by You or Your distributors under this License
+        prior to termination shall survive termination.
+        
+        ************************************************************************
+        *                                                                      *
+        *  6. Disclaimer of Warranty                                           *
+        *  -------------------------                                           *
+        *                                                                      *
+        *  Covered Software is provided under this License on an "as is"       *
+        *  basis, without warranty of any kind, either expressed, implied, or  *
+        *  statutory, including, without limitation, warranties that the       *
+        *  Covered Software is free of defects, merchantable, fit for a        *
+        *  particular purpose or non-infringing. The entire risk as to the     *
+        *  quality and performance of the Covered Software is with You.        *
+        *  Should any Covered Software prove defective in any respect, You     *
+        *  (not any Contributor) assume the cost of any necessary servicing,   *
+        *  repair, or correction. This disclaimer of warranty constitutes an   *
+        *  essential part of this License. No use of any Covered Software is   *
+        *  authorized under this License except under this disclaimer.         *
+        *                                                                      *
+        ************************************************************************
+        
+        ************************************************************************
+        *                                                                      *
+        *  7. Limitation of Liability                                          *
+        *  --------------------------                                          *
+        *                                                                      *
+        *  Under no circumstances and under no legal theory, whether tort      *
+        *  (including negligence), contract, or otherwise, shall any           *
+        *  Contributor, or anyone who distributes Covered Software as          *
+        *  permitted above, be liable to You for any direct, indirect,         *
+        *  special, incidental, or consequential damages of any character      *
+        *  including, without limitation, damages for lost profits, loss of    *
+        *  goodwill, work stoppage, computer failure or malfunction, or any    *
+        *  and all other commercial damages or losses, even if such party      *
+        *  shall have been informed of the possibility of such damages. This   *
+        *  limitation of liability shall not apply to liability for death or   *
+        *  personal injury resulting from such party's negligence to the       *
+        *  extent applicable law prohibits such limitation. Some               *
+        *  jurisdictions do not allow the exclusion or limitation of           *
+        *  incidental or consequential damages, so this exclusion and          *
+        *  limitation may not apply to You.                                    *
+        *                                                                      *
+        ************************************************************************
+        
+        8. Litigation
+        -------------
+        
+        Any litigation relating to this License may be brought only in the
+        courts of a jurisdiction where the defendant maintains its principal
+        place of business and such litigation shall be governed by laws of that
+        jurisdiction, without reference to its conflict-of-law provisions.
+        Nothing in this Section shall prevent a party's ability to bring
+        cross-claims or counter-claims.
+        
+        9. Miscellaneous
+        ----------------
+        
+        This License represents the complete agreement concerning the subject
+        matter hereof. If any provision of this License is held to be
+        unenforceable, such provision shall be reformed only to the extent
+        necessary to make it enforceable. Any law or regulation which provides
+        that the language of a contract shall be construed against the drafter
+        shall not be used to construe this License against a Contributor.
+        
+        10. Versions of the License
+        ---------------------------
+        
+        10.1. New Versions
+        
+        Mozilla Foundation is the license steward. Except as provided in Section
+        10.3, no one other than the license steward has the right to modify or
+        publish new versions of this License. Each version will be given a
+        distinguishing version number.
+        
+        10.2. Effect of New Versions
+        
+        You may distribute the Covered Software under the terms of the version
+        of the License under which You originally received the Covered Software,
+        or under the terms of any subsequent version published by the license
+        steward.
+        
+        10.3. Modified Versions
+        
+        If you create software not governed by this License, and you want to
+        create a new license for such software, you may create and use a
+        modified version of this License if you rename the license and remove
+        any references to the name of the license steward (except to note that
+        such modified license differs from this License).
+        
+        10.4. Distributing Source Code Form that is Incompatible With Secondary
+        Licenses
+        
+        If You choose to distribute Source Code Form that is Incompatible With
+        Secondary Licenses under the terms of this version of the License, the
+        notice described in Exhibit B of this License must be attached.
+        
+        Exhibit A - Source Code Form License Notice
+        -------------------------------------------
+        
+          This Source Code Form is subject to the terms of the Mozilla Public
+          License, v. 2.0. If a copy of the MPL was not distributed with this
+          file, You can obtain one at http://mozilla.org/MPL/2.0/.
+        
+        If it is not possible or desirable to put the notice in a particular
+        file, then You may include the notice in a location (such as a LICENSE
+        file in a relevant directory) where a recipient would be likely to look
+        for such a notice.
+        
+        You may add additional accurate notices of copyright ownership.
+        
+        Exhibit B - "Incompatible With Secondary Licenses" Notice
+        ---------------------------------------------------------
+        
+          This Source Code Form is "Incompatible With Secondary Licenses", as
+          defined by the Mozilla Public License, v. 2.0.
+        
+Project-URL: homepage, https://agno.com
+Project-URL: documentation, https://docs.agno.com
+Keywords: agent,reasoning,llm,large-language-model,framework
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docstring-parser
+Requires-Dist: gitpython
+Requires-Dist: httpx
+Requires-Dist: pydantic-settings
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: python-multipart
+Requires-Dist: pyyaml
+Requires-Dist: rich
+Requires-Dist: tomli
+Requires-Dist: typer
+Requires-Dist: typing-extensions
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: timeout-decorator; extra == "dev"
+Requires-Dist: types-pyyaml; extra == "dev"
+Requires-Dist: types-aiofiles; extra == "dev"
+Requires-Dist: fastapi; extra == "dev"
+Requires-Dist: uvicorn; extra == "dev"
+Requires-Dist: arxiv; extra == "dev"
+Provides-Extra: integration-tests
+Requires-Dist: exa_py; extra == "integration-tests"
+Requires-Dist: duckduckgo-search; extra == "integration-tests"
+Requires-Dist: yfinance; extra == "integration-tests"
+Requires-Dist: sqlalchemy; extra == "integration-tests"
+Requires-Dist: Pillow; extra == "integration-tests"
+Provides-Extra: opentelemetry
+Requires-Dist: opentelemetry-sdk; extra == "opentelemetry"
+Requires-Dist: opentelemetry-exporter-otlp; extra == "opentelemetry"
+Provides-Extra: weave
+Requires-Dist: weave; extra == "weave"
+Provides-Extra: openlit
+Requires-Dist: openlit; extra == "openlit"
+Requires-Dist: agno[opentelemetry]; extra == "openlit"
+Provides-Extra: arize
+Requires-Dist: arize-phoenix; extra == "arize"
+Requires-Dist: agno[opentelemetry]; extra == "arize"
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc; extra == "arize"
+Requires-Dist: opentelemetry-distro; extra == "arize"
+Provides-Extra: langfuse
+Requires-Dist: langfuse; extra == "langfuse"
+Provides-Extra: azure
+Requires-Dist: azure-ai-inference; extra == "azure"
+Requires-Dist: aiohttp; extra == "azure"
+Provides-Extra: anthropic
+Requires-Dist: anthropic; extra == "anthropic"
+Provides-Extra: cohere
+Requires-Dist: cohere; extra == "cohere"
+Provides-Extra: google
+Requires-Dist: google-genai; extra == "google"
+Provides-Extra: groq
+Requires-Dist: groq; extra == "groq"
+Provides-Extra: mistral
+Requires-Dist: mistralai; extra == "mistral"
+Provides-Extra: openai
+Requires-Dist: openai; extra == "openai"
+Provides-Extra: ollama
+Requires-Dist: ollama; extra == "ollama"
+Provides-Extra: ibm
+Requires-Dist: ibm-watsonx-ai; extra == "ibm"
+Provides-Extra: lmstudio
+Requires-Dist: lmstudio; extra == "lmstudio"
+Provides-Extra: litellm
+Requires-Dist: litellm; extra == "litellm"
+Provides-Extra: meta
+Requires-Dist: llama-api-client; extra == "meta"
+Provides-Extra: cerebras
+Requires-Dist: cerebras-cloud-sdk; extra == "cerebras"
+Provides-Extra: apify
+Requires-Dist: apify-client; extra == "apify"
+Provides-Extra: cartesia
+Requires-Dist: cartesia; extra == "cartesia"
+Provides-Extra: exa
+Requires-Dist: exa_py; extra == "exa"
+Provides-Extra: mem0
+Requires-Dist: mem0ai; extra == "mem0"
+Provides-Extra: yfinance
+Requires-Dist: yfinance; extra == "yfinance"
+Provides-Extra: ddg
+Requires-Dist: duckduckgo-search; extra == "ddg"
+Provides-Extra: duckdb
+Requires-Dist: duckdb; extra == "duckdb"
+Provides-Extra: newspaper
+Requires-Dist: newspaper4k; extra == "newspaper"
+Requires-Dist: lxml_html_clean; extra == "newspaper"
+Provides-Extra: youtube
+Requires-Dist: youtube_transcript_api; extra == "youtube"
+Provides-Extra: firecrawl
+Requires-Dist: firecrawl-py; extra == "firecrawl"
+Provides-Extra: github
+Requires-Dist: PyGithub; extra == "github"
+Provides-Extra: gmail
+Requires-Dist: google-api-python-client; extra == "gmail"
+Requires-Dist: google-auth-httplib2; extra == "gmail"
+Requires-Dist: google-auth-oauthlib; extra == "gmail"
+Provides-Extra: googlemaps
+Requires-Dist: googlemaps; extra == "googlemaps"
+Requires-Dist: google-maps-places; extra == "googlemaps"
+Provides-Extra: todoist
+Requires-Dist: todoist-api-python; extra == "todoist"
+Provides-Extra: elevenlabs
+Requires-Dist: elevenlabs; extra == "elevenlabs"
+Provides-Extra: fal
+Requires-Dist: fal_client; extra == "fal"
+Provides-Extra: webex
+Requires-Dist: webexpythonsdk; extra == "webex"
+Provides-Extra: mcp
+Requires-Dist: mcp; extra == "mcp"
+Provides-Extra: browserbase
+Requires-Dist: browserbase; extra == "browserbase"
+Requires-Dist: playwright; extra == "browserbase"
+Provides-Extra: agentql
+Requires-Dist: agentql; extra == "agentql"
+Provides-Extra: confluence
+Requires-Dist: atlassian-python-api; extra == "confluence"
+Provides-Extra: zep
+Requires-Dist: zep-cloud; extra == "zep"
+Provides-Extra: google-bigquery
+Requires-Dist: google-cloud-bigquery; extra == "google-bigquery"
+Provides-Extra: sql
+Requires-Dist: sqlalchemy; extra == "sql"
+Provides-Extra: postgres
+Requires-Dist: psycopg-binary; extra == "postgres"
+Requires-Dist: psycopg; extra == "postgres"
+Provides-Extra: sqlite
+Requires-Dist: sqlalchemy; extra == "sqlite"
+Provides-Extra: gcs
+Requires-Dist: google-cloud-storage; extra == "gcs"
+Provides-Extra: redis
+Requires-Dist: redis; extra == "redis"
+Provides-Extra: pgvector
+Requires-Dist: pgvector; extra == "pgvector"
+Provides-Extra: chromadb
+Requires-Dist: chromadb; extra == "chromadb"
+Provides-Extra: lancedb
+Requires-Dist: lancedb==0.20.0; extra == "lancedb"
+Requires-Dist: tantivy; extra == "lancedb"
+Provides-Extra: qdrant
+Requires-Dist: qdrant-client; extra == "qdrant"
+Provides-Extra: couchbase
+Requires-Dist: couchbase; extra == "couchbase"
+Provides-Extra: cassandra
+Requires-Dist: cassio; extra == "cassandra"
+Provides-Extra: mongodb
+Requires-Dist: pymongo[srv]; extra == "mongodb"
+Provides-Extra: singlestore
+Requires-Dist: sqlalchemy; extra == "singlestore"
+Provides-Extra: weaviate
+Requires-Dist: weaviate-client; extra == "weaviate"
+Provides-Extra: milvusdb
+Requires-Dist: pymilvus; extra == "milvusdb"
+Provides-Extra: clickhouse
+Requires-Dist: clickhouse-connect; extra == "clickhouse"
+Provides-Extra: pinecone
+Requires-Dist: pinecone==5.4.2; extra == "pinecone"
+Provides-Extra: pdf
+Requires-Dist: pypdf; extra == "pdf"
+Requires-Dist: rapidocr_onnxruntime; extra == "pdf"
+Provides-Extra: docx
+Requires-Dist: python-docx; extra == "docx"
+Provides-Extra: text
+Requires-Dist: aiofiles; extra == "text"
+Provides-Extra: csv
+Requires-Dist: aiofiles; extra == "csv"
+Provides-Extra: performance
+Requires-Dist: memory_profiler; extra == "performance"
+Provides-Extra: cookbooks
+Requires-Dist: inquirer; extra == "cookbooks"
+Requires-Dist: email_validator; extra == "cookbooks"
+Provides-Extra: docker
+Requires-Dist: agno-docker; extra == "docker"
+Provides-Extra: aws
+Requires-Dist: agno-aws; extra == "aws"
+Requires-Dist: agno-docker; extra == "aws"
+Provides-Extra: models
+Requires-Dist: agno[anthropic]; extra == "models"
+Requires-Dist: agno[azure]; extra == "models"
+Requires-Dist: agno[cohere]; extra == "models"
+Requires-Dist: agno[google]; extra == "models"
+Requires-Dist: agno[groq]; extra == "models"
+Requires-Dist: agno[mistral]; extra == "models"
+Requires-Dist: agno[ollama]; extra == "models"
+Requires-Dist: agno[openai]; extra == "models"
+Requires-Dist: agno[ibm]; extra == "models"
+Requires-Dist: agno[litellm]; extra == "models"
+Requires-Dist: agno[meta]; extra == "models"
+Requires-Dist: agno[cerebras]; extra == "models"
+Provides-Extra: tools
+Requires-Dist: agno[apify]; extra == "tools"
+Requires-Dist: agno[exa]; extra == "tools"
+Requires-Dist: agno[cartesia]; extra == "tools"
+Requires-Dist: agno[ddg]; extra == "tools"
+Requires-Dist: agno[duckdb]; extra == "tools"
+Requires-Dist: agno[newspaper]; extra == "tools"
+Requires-Dist: agno[youtube]; extra == "tools"
+Requires-Dist: agno[firecrawl]; extra == "tools"
+Requires-Dist: agno[github]; extra == "tools"
+Requires-Dist: agno[gmail]; extra == "tools"
+Requires-Dist: agno[googlemaps]; extra == "tools"
+Requires-Dist: agno[todoist]; extra == "tools"
+Requires-Dist: agno[elevenlabs]; extra == "tools"
+Requires-Dist: agno[fal]; extra == "tools"
+Requires-Dist: agno[webex]; extra == "tools"
+Requires-Dist: agno[mcp]; extra == "tools"
+Requires-Dist: agno[browserbase]; extra == "tools"
+Requires-Dist: agno[agentql]; extra == "tools"
+Requires-Dist: agno[confluence]; extra == "tools"
+Requires-Dist: agno[zep]; extra == "tools"
+Requires-Dist: agno[mem0]; extra == "tools"
+Requires-Dist: agno[google_bigquery]; extra == "tools"
+Provides-Extra: storage
+Requires-Dist: agno[sql]; extra == "storage"
+Requires-Dist: agno[postgres]; extra == "storage"
+Requires-Dist: agno[sqlite]; extra == "storage"
+Requires-Dist: agno[gcs]; extra == "storage"
+Requires-Dist: agno[redis]; extra == "storage"
+Provides-Extra: vectordbs
+Requires-Dist: agno[pgvector]; extra == "vectordbs"
+Requires-Dist: agno[chromadb]; extra == "vectordbs"
+Requires-Dist: agno[lancedb]; extra == "vectordbs"
+Requires-Dist: agno[qdrant]; extra == "vectordbs"
+Requires-Dist: agno[couchbase]; extra == "vectordbs"
+Requires-Dist: agno[cassandra]; extra == "vectordbs"
+Requires-Dist: agno[mongodb]; extra == "vectordbs"
+Requires-Dist: agno[singlestore]; extra == "vectordbs"
+Requires-Dist: agno[weaviate]; extra == "vectordbs"
+Requires-Dist: agno[milvusdb]; extra == "vectordbs"
+Requires-Dist: agno[clickhouse]; extra == "vectordbs"
+Requires-Dist: agno[pinecone]; extra == "vectordbs"
+Provides-Extra: knowledge
+Requires-Dist: agno[pdf]; extra == "knowledge"
+Requires-Dist: agno[docx]; extra == "knowledge"
+Requires-Dist: agno[text]; extra == "knowledge"
+Requires-Dist: agno[csv]; extra == "knowledge"
+Provides-Extra: tests
+Requires-Dist: agno[dev]; extra == "tests"
+Requires-Dist: agno[models]; extra == "tests"
+Requires-Dist: agno[tools]; extra == "tests"
+Requires-Dist: agno[storage]; extra == "tests"
+Requires-Dist: agno[vectordbs]; extra == "tests"
+Requires-Dist: agno[knowledge]; extra == "tests"
+Requires-Dist: agno[performance]; extra == "tests"
+Requires-Dist: agno[cookbooks]; extra == "tests"
+Requires-Dist: twine; extra == "tests"
+Requires-Dist: build; extra == "tests"
+Dynamic: license-file
+
+<div align="center" id="top">
+  <a href="https://docs.agno.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://agno-public.s3.us-east-1.amazonaws.com/assets/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://agno-public.s3.us-east-1.amazonaws.com/assets/logo-light.svg">
+      <img src="https://agno-public.s3.us-east-1.amazonaws.com/assets/logo-light.svg" alt="Agno">
+    </picture>
+  </a>
+</div>
+<div align="center">
+  <a href="https://docs.agno.com">📚 Documentation</a> &nbsp;|&nbsp;
+  <a href="https://docs.agno.com/examples/introduction">💡 Examples</a> &nbsp;|&nbsp;
+  <a href="https://github.com/agno-agi/agno/stargazers">🌟 Star Us</a>
+</div>
+
+## What is Agno?
+
+[Agno](https://docs.agno.com) is a lightweight, high-performance library for building Agents.
+
+It helps you progressively build the 5 levels of Agentic Systems:
+- Level 1: Agents with tools and instructions.
+- Level 2: Agents with knowledge and storage.
+- Level 3: Agents with memory and reasoning.
+- Level 4: Teams of Agents with collaboration and coordination.
+- Level 5: Agentic Workflows with state and determinism.
+
+Here's a Investment Research Agent that analyzes stocks, reasoning through each step:
+
+```python reasoning_finance_agent.py
+from agno.agent import Agent
+from agno.models.anthropic import Claude
+from agno.tools.reasoning import ReasoningTools
+from agno.tools.yfinance import YFinanceTools
+
+agent = Agent(
+    model=Claude(id="claude-3-7-sonnet-latest"),
+    tools=[
+        ReasoningTools(add_instructions=True),
+        YFinanceTools(stock_price=True, analyst_recommendations=True, company_info=True, company_news=True),
+    ],
+    instructions=[
+        "Use tables to display data",
+        "Only output the report, no other text",
+    ],
+    markdown=True,
+)
+agent.print_response("Write a report on NVDA", stream=True, show_full_reasoning=True, stream_intermediate_steps=True)
+```
+
+https://github.com/user-attachments/assets/bbb99955-9848-49a9-9732-3e19d77b2ff8
+
+## Key features
+
+Agno is simple, fast and model-agnostic. Here are some key features:
+
+- **Model Agnostic**: Agno Agents can connect to 23+ model providers, no lock-in.
+- **Lightning Fast**: - **Lightning Fast**: Agents instantiate in **~3μs** and use **~5Kib** memory on average (see [performance](#performance) for more details).
+- **Reasoning is a first class citizen**: Make your Agents "think" and "analyze" using Reasoning Models, `ReasoningTools` or our custom `chain-of-thought` approach.
+- **Natively Multi Modal**: Agno Agents are natively multi modal, they can take in text, image, audio and video and generate text, image, audio and video as output.
+- **Advanced Multi Agent Architecture**: Agno provides an industry leading multi-agent architecture (**Agent Teams**) with 3 different modes: `route`, `collaborate` and `coordinate`.
+- **Agentic Search built-in**: Give your Agents the ability to search for information at runtime using one of 20+ vector databases. Get access to state-of-the-art Agentic RAG that uses hybrid search with re-ranking. **Fully async and highly performant.**
+- **Long-term Memory & Session Storage**: Agno provides plug-n-play `Storage` & `Memory` drivers that give your Agents long-term memory and session storage.
+- **Pre-built FastAPI Routes**: Agno provides pre-built FastAPI routes to serve your Agents, Teams and Workflows.
+- **Structured Outputs**: Agno Agents can return fully-typed responses using model provided structured outputs or `json_mode`.
+- **Monitoring**: Monitor agent sessions and performance in real-time on [agno.com](https://app.agno.com).
+
+## Building Agents with Agno
+
+If you're new to Agno, start by building your [first Agent](https://docs.agno.com/introduction/agents), chat with it on the [playground](https://docs.agno.com/introduction/playground) and finally, monitor it on [agno.com](https://docs.agno.com/introduction/monitoring).
+
+After that, checkout the [Examples Gallery](https://docs.agno.com/examples) and build real-world applications with Agno.
+
+## Installation
+
+```shell
+pip install -U agno
+```
+
+## What are Agents?
+
+**Agents** are AI programs that operate autonomously.
+
+- The core of an Agent is a model, tools and instructions.
+- Agents also have **memory**, **knowledge**, **storage** and the ability to **reason**.
+
+Read more about each of these in the [docs](https://docs.agno.com/introduction/agents#what-are-agents%3F).
+
+> Let's build a few Agents to see how they work.
+
+## Example - Reasoning Agent
+
+Let's start with a Reasoning Agent so we get a sense of Agno's capabilities.
+
+Save this code to a file: `reasoning_agent.py`.
+
+```python
+from agno.agent import Agent
+from agno.models.anthropic import Claude
+from agno.tools.reasoning import ReasoningTools
+from agno.tools.yfinance import YFinanceTools
+
+agent = Agent(
+    model=Claude(id="claude-3-7-sonnet-latest"),
+    tools=[
+        ReasoningTools(add_instructions=True),
+        YFinanceTools(
+            stock_price=True,
+            analyst_recommendations=True,
+            company_info=True,
+            company_news=True,
+        ),
+    ],
+    instructions=[
+        "Use tables to display data",
+        "Only output the report, no other text",
+    ],
+    markdown=True,
+)
+agent.print_response(
+    "Write a report on NVDA",
+    stream=True,
+    show_full_reasoning=True,
+    stream_intermediate_steps=True,
+)
+```
+
+Then create a virtual environment, install dependencies, export your `ANTHROPIC_API_KEY` and run the agent.
+
+```shell
+uv venv --python 3.12
+source .venv/bin/activate
+
+uv pip install agno anthropic yfinance
+
+export ANTHROPIC_API_KEY=sk-ant-api03-xxxx
+
+python reasoning_agent.py
+```
+
+We can see the Agent is reasoning through the task, using the `ReasoningTools` and `YFinanceTools` to gather information. This is how the output looks like:
+
+https://github.com/user-attachments/assets/bbb99955-9848-49a9-9732-3e19d77b2ff8
+
+> Now let's walk through the simple -> tools -> knowledge -> teams of agents flow.
+
+## Example - Basic Agent
+
+The simplest Agent is just an inference task, no tools, no memory, no knowledge.
+
+```python
+from agno.agent import Agent
+from agno.models.openai import OpenAIChat
+
+agent = Agent(
+    model=OpenAIChat(id="gpt-4o"),
+    description="You are an enthusiastic news reporter with a flair for storytelling!",
+    markdown=True
+)
+agent.print_response("Tell me about a breaking news story from New York.", stream=True)
+```
+
+To run the agent, install dependencies and export your `OPENAI_API_KEY`.
+
+```shell
+pip install agno openai
+
+export OPENAI_API_KEY=sk-xxxx
+
+python basic_agent.py
+```
+
+[View this example in the cookbook](./cookbook/getting_started/01_basic_agent.py)
+
+## Example - Agent with tools
+
+This basic agent will obviously make up a story, lets give it a tool to search the web.
+
+```python
+from agno.agent import Agent
+from agno.models.openai import OpenAIChat
+from agno.tools.duckduckgo import DuckDuckGoTools
+
+agent = Agent(
+    model=OpenAIChat(id="gpt-4o"),
+    description="You are an enthusiastic news reporter with a flair for storytelling!",
+    tools=[DuckDuckGoTools()],
+    show_tool_calls=True,
+    markdown=True
+)
+agent.print_response("Tell me about a breaking news story from New York.", stream=True)
+```
+
+Install dependencies and run the Agent:
+
+```shell
+pip install duckduckgo-search
+
+python agent_with_tools.py
+```
+
+Now you should see a much more relevant result.
+
+[View this example in the cookbook](./cookbook/getting_started/02_agent_with_tools.py)
+
+## Example - Agent with knowledge
+
+Agents can store knowledge in a vector database and use it for RAG or dynamic few-shot learning.
+
+**Agno agents use Agentic RAG** by default, which means they will search their knowledge base for the specific information they need to achieve their task.
+
+```python
+from agno.agent import Agent
+from agno.models.openai import OpenAIChat
+from agno.embedder.openai import OpenAIEmbedder
+from agno.tools.duckduckgo import DuckDuckGoTools
+from agno.knowledge.pdf_url import PDFUrlKnowledgeBase
+from agno.vectordb.lancedb import LanceDb, SearchType
+
+agent = Agent(
+    model=OpenAIChat(id="gpt-4o"),
+    description="You are a Thai cuisine expert!",
+    instructions=[
+        "Search your knowledge base for Thai recipes.",
+        "If the question is better suited for the web, search the web to fill in gaps.",
+        "Prefer the information in your knowledge base over the web results."
+    ],
+    knowledge=PDFUrlKnowledgeBase(
+        urls=["https://agno-public.s3.amazonaws.com/recipes/ThaiRecipes.pdf"],
+        vector_db=LanceDb(
+            uri="tmp/lancedb",
+            table_name="recipes",
+            search_type=SearchType.hybrid,
+            embedder=OpenAIEmbedder(id="text-embedding-3-small"),
+        ),
+    ),
+    tools=[DuckDuckGoTools()],
+    show_tool_calls=True,
+    markdown=True
+)
+
+# Comment out after the knowledge base is loaded
+if agent.knowledge is not None:
+    agent.knowledge.load()
+
+agent.print_response("How do I make chicken and galangal in coconut milk soup", stream=True)
+agent.print_response("What is the history of Thai curry?", stream=True)
+```
+
+Install dependencies and run the Agent:
+
+```shell
+pip install lancedb tantivy pypdf duckduckgo-search
+
+python agent_with_knowledge.py
+```
+
+[View this example in the cookbook](./cookbook/getting_started/03_agent_with_knowledge.py)
+
+## Example - Multi Agent Teams
+
+Agents work best when they have a singular purpose, a narrow scope and a small number of tools. When the number of tools grows beyond what the language model can handle or the tools belong to different categories, use a team of agents to spread the load.
+
+```python
+from agno.agent import Agent
+from agno.models.openai import OpenAIChat
+from agno.tools.duckduckgo import DuckDuckGoTools
+from agno.tools.yfinance import YFinanceTools
+from agno.team import Team
+
+web_agent = Agent(
+    name="Web Agent",
+    role="Search the web for information",
+    model=OpenAIChat(id="gpt-4o"),
+    tools=[DuckDuckGoTools()],
+    instructions="Always include sources",
+    show_tool_calls=True,
+    markdown=True,
+)
+
+finance_agent = Agent(
+    name="Finance Agent",
+    role="Get financial data",
+    model=OpenAIChat(id="gpt-4o"),
+    tools=[YFinanceTools(stock_price=True, analyst_recommendations=True, company_info=True)],
+    instructions="Use tables to display data",
+    show_tool_calls=True,
+    markdown=True,
+)
+
+agent_team = Team(
+    mode="coordinate",
+    members=[web_agent, finance_agent],
+    model=OpenAIChat(id="gpt-4o"),
+    success_criteria="A comprehensive financial news report with clear sections and data-driven insights.",
+    instructions=["Always include sources", "Use tables to display data"],
+    show_tool_calls=True,
+    markdown=True,
+)
+
+agent_team.print_response("What's the market outlook and financial performance of AI semiconductor companies?", stream=True)
+```
+
+Install dependencies and run the Agent team:
+
+```shell
+pip install duckduckgo-search yfinance
+
+python agent_team.py
+```
+
+[View this example in the cookbook](./cookbook/getting_started/05_agent_team.py)
+
+## 🚨 Global Agent Hackathon! 🚨
+
+We're thrilled to announce a month long, open source AI Agent Hackathon — open to all builders and dreamers working on agents, RAG, tool use, and multi-agent systems.
+
+### 💰 Build something extordinary, win up to $20,000 in cash
+
+We're giving away $20,000 in prizes for the most ambitious Agent projects
+
+- 🏅 10 winners: $300 each
+- 🥉 10 winners: $500 each
+- 🥈 5 winners: $1,000 each
+- 🥇 1 winner: $2,000
+- 🏆 GRAND PRIZE: $5,000 🏆
+
+> Follow this [post](https://www.agno.com/blog/agent-hackathon-april-2025) for more details and updates
+
+### 🤝 Want to partner or judge?
+
+If you're building in the AI Agent space, or want to help shape the next generation of Agent builders - we'd love to work with you.
+
+Reach out to support@agno.com to get involved.
+
+## Performance
+
+At Agno, we're obsessed with performance. Why? because even simple AI workflows can spawn thousands of Agents to achieve their goals. Scale that to a modest number of users and performance becomes a bottleneck. Agno is designed to power high performance agentic systems:
+
+- Agent instantiation: ~3μs on average
+- Memory footprint: ~6.5Kib on average
+
+> Tested on an Apple M4 Mackbook Pro.
+
+While an Agent's run-time is bottlenecked by inference, we must do everything possible to minimize execution time, reduce memory usage, and parallelize tool calls. These numbers may seem trivial at first, but our experience shows that they add up even at a reasonably small scale.
+
+### Instantiation time
+
+Let's measure the time it takes for an Agent with 1 tool to start up. We'll run the evaluation 1000 times to get a baseline measurement.
+
+You should run the evaluation yourself on your own machine, please, do not take these results at face value.
+
+```shell
+# Setup virtual environment
+./scripts/perf_setup.sh
+source .venvs/perfenv/bin/activate
+# OR Install dependencies manually
+# pip install openai agno langgraph langchain_openai
+
+# Agno
+python evals/performance/instantiation_with_tool.py
+
+# LangGraph
+python evals/performance/other/langgraph_instantiation.py
+```
+
+> The following evaluation is run on an Apple M4 Mackbook Pro. It also runs as a Github action on this repo.
+
+LangGraph is on the right, **let's start it first and give it a head start**.
+
+Agno is on the left, notice how it finishes before LangGraph gets 1/2 way through the runtime measurement, and hasn't even started the memory measurement. That's how fast Agno is.
+
+https://github.com/user-attachments/assets/ba466d45-75dd-45ac-917b-0a56c5742e23
+
+### Memory usage
+
+To measure memory usage, we use the `tracemalloc` library. We first calculate a baseline memory usage by running an empty function, then run the Agent 1000x times and calculate the difference. This gives a (reasonably) isolated measurement of the memory usage of the Agent.
+
+We recommend running the evaluation yourself on your own machine, and digging into the code to see how it works. If we've made a mistake, please let us know.
+
+### Conclusion
+
+Agno agents are designed for performance and while we do share some benchmarks against other frameworks, we should be mindful that accuracy and reliability are more important than speed.
+
+We'll be publishing accuracy and reliability benchmarks running on Github actions in the future. Given that each framework is different and we won't be able to tune their performance like we do with Agno, for future benchmarks we'll only be comparing against ourselves.
+
+## Cursor Setup
+
+When building Agno agents, using Agno documentation as a source in Cursor is a great way to speed up your development.
+
+1. In Cursor, go to the settings or preferences section.
+2. Find the section to manage documentation sources.
+3. Add `https://docs.agno.com` to the list of documentation URLs.
+4. Save the changes.
+
+Now, Cursor will have access to the Agno documentation.
+
+## Documentation, Community & More examples
+
+- Docs: <a href="https://docs.agno.com" target="_blank" rel="noopener noreferrer">docs.agno.com</a>
+- Getting Started Examples: <a href="https://github.com/agno-agi/agno/tree/main/cookbook/getting_started" target="_blank" rel="noopener noreferrer">Getting Started Cookbook</a>
+- All Examples: <a href="https://github.com/agno-agi/agno/tree/main/cookbook" target="_blank" rel="noopener noreferrer">Cookbook</a>
+- Community forum: <a href="https://community.agno.com/" target="_blank" rel="noopener noreferrer">community.agno.com</a>
+- Chat: <a href="https://discord.gg/4MtYHHrgA8" target="_blank" rel="noopener noreferrer">discord</a>
+
+## Contributions
+
+We welcome contributions, read our [contributing guide](https://github.com/agno-agi/agno/blob/main/CONTRIBUTING.md) to get started.
+
+## Telemetry
+
+Agno logs which model an agent used so we can prioritize updates to the most popular providers. You can disable this by setting `AGNO_TELEMETRY=false` in your environment.
+
+<p align="left">
+  <a href="#top">⬆️ Back to Top</a>
+</p>
