@@ -1,4 +1,4 @@
-![SEO InsightHub Logo](images/logo.png)
+![SEO InsightHub Logo](images/logo.jpeg)
 
 # **SEO InsightHub - AI-Powered SEO Analysis Platform** 🚀
 
