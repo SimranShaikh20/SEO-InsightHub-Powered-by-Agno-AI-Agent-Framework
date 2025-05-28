@@ -1,6 +1,6 @@
-![SEO InsightHub Logo](images/logo.jpeg)
 
-# **SEO InsightHub - AI-Powered SEO Analysis Platform** 🚀
+
+# 🔍 **SEO InsightHub - AI-Powered SEO Analysis Platform** 🚀
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
@@ -72,7 +72,53 @@ graph TB
     E --> G
     G --> O
 ```
+## 🔄 Application Flow Diagram
 
+```mermaid
+flowchart TD
+    Start([User Starts Analysis]) --> Config[Configure Analysis Settings]
+    Config --> Input[Enter Website URL & Competitors]
+    Input --> Keywords[Add Target Keywords]
+    Keywords --> Init[Initialize Agno AI Agent]
+    
+    Init --> Check{Groq API Available?}
+    Check -->|Yes| AI[Enable AI Analysis]
+    Check -->|No| Fallback[Use Rule-based Analysis]
+    
+    AI --> Crawl[Website Crawling Phase]
+    Fallback --> Crawl
+    
+    Crawl --> CrawlSite[Crawl Primary Website]
+    CrawlSite --> CrawlComp{Include Competitors?}
+    CrawlComp -->|Yes| CrawlCompSites[Crawl Competitor Sites]
+    CrawlComp -->|No| KeywordPhase[Keyword Research Phase]
+    CrawlCompSites --> KeywordPhase
+    
+    KeywordPhase --> FetchKeywords{Include Keywords?}
+    FetchKeywords -->|Yes| GetKeywords[Fetch Keyword Data]
+    FetchKeywords -->|No| Analysis[AI Analysis Phase]
+    GetKeywords --> Analysis
+    
+    Analysis --> SiteAnalysis[Site Technical Analysis]
+    SiteAnalysis --> CompAnalysis[Competitive Analysis]
+    CompAnalysis --> KeywordAnalysis[Keyword Opportunity Analysis]
+    KeywordAnalysis --> ActionPlan[Generate Action Plan]
+    
+    ActionPlan --> ScoreCalc[Calculate SEO Score]
+    ScoreCalc --> Results[Present Results]
+    
+    Results --> Tab1[Immediate Actions Tab]
+    Results --> Tab2[Short-term Goals Tab]
+    Results --> Tab3[Long-term Strategy Tab]
+    Results --> Tab4[Detailed Insights Tab]
+    Results --> Tab5[Data & Charts Tab]
+    
+    Tab1 --> End([Analysis Complete])
+    Tab2 --> End
+    Tab3 --> End
+    Tab4 --> End
+    Tab5 --> End
+```
 ---
 
 ## 📁 **Project Structure**
